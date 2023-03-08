@@ -1,28 +1,27 @@
 # ZZMediator
 
-[![CI Status](https://img.shields.io/travis/j1zhouzhi@126.com/ZZMediator.svg?style=flat)](https://travis-ci.org/j1zhouzhi@126.com/ZZMediator)
-[![Version](https://img.shields.io/cocoapods/v/ZZMediator.svg?style=flat)](https://cocoapods.org/pods/ZZMediator)
-[![License](https://img.shields.io/cocoapods/l/ZZMediator.svg?style=flat)](https://cocoapods.org/pods/ZZMediator)
-[![Platform](https://img.shields.io/cocoapods/p/ZZMediator.svg?style=flat)](https://cocoapods.org/pods/ZZMediator)
+## 模块化
+通过App模块化，降低系统复杂度，需要解决各模块之间的耦合，避免杂乱，互相依赖。
+- 没有模块化时，所有业务写在同一个项目中，系统各种业务之间互相调用，你中有我，我中有你，很难梳理清依赖关系，当系统变得庞大时会很难修改、拆分和扩展。
+- 通过中介者模式，由中间件统一管理调度，但是中间件需要依赖所有子模块，子模块又依赖中间件。同时充当 客户端（调用方）/ 服务端 （提供方）
+- 通过控制反转(路由注册，协议注册，反射)，消除中间件对子模块的代码依赖，进一步降低系统复杂度。
 
-## Example
+## 作用
+- 优化编译速度，提高开发效率。
+- 梳理业务架构，明确职责，思路清晰，便于维护和可持续扩展。
+- 提升代码质量，统一开发风格。
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## 模块间通信方案
+- URL路由注册
+- 反射远程调用(通过字符串生成类和寻找方法)
+- 协议注册
+- 通知
 
-## Requirements
-
-## Installation
-
-ZZMediator is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+## 安装
 
 ```ruby
 pod 'ZZMediator'
 ```
-
-## Author
-
-j1zhouzhi@126.com, j1zhouzhi@126.com
 
 ## License
 

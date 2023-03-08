@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16DA32D962233203AB9ECF99 /* Pods_ZZMediator_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B787A13F4FB7E5980D35BD11 /* Pods_ZZMediator_Tests.framework */; };
-		312FAB944153C6E1E142296D /* Pods_ZZMediator_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA5EFD4A764E69EC9C3E4B8 /* Pods_ZZMediator_Example.framework */; };
+		0510442729949143004B3117 /* ZZRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0510442629949143004B3117 /* ZZRouterTests.swift */; };
+		05104434299CABA1004B3117 /* ZZProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05104433299CABA1004B3117 /* ZZProtocolTests.swift */; };
+		46AEB742859C2E266562CB6C /* libPods-ZZMediator_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C0579AF1BF3EAE0F1C2EEB /* libPods-ZZMediator_Example.a */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		EAE2AFE2601C11B9EE7AD2AB /* libPods-ZZMediator_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48CC5243DE62F6161114CD7D /* libPods-ZZMediator_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4CA5EFD4A764E69EC9C3E4B8 /* Pods_ZZMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		593BA5C7D02E3A272EF6CE42 /* Pods-ZZMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZMediator_Example.release.xcconfig"; path = "Target Support Files/Pods-ZZMediator_Example/Pods-ZZMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0510442629949143004B3117 /* ZZRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZRouterTests.swift; sourceTree = "<group>"; };
+		05104433299CABA1004B3117 /* ZZProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZProtocolTests.swift; sourceTree = "<group>"; };
+		48BA8A733DA563965EA2719E /* Pods-ZZMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZMediator_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZZMediator_Example/Pods-ZZMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		48CC5243DE62F6161114CD7D /* libPods-ZZMediator_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZZMediator_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57DB7ECEF2A4F2A3EC49688A /* Pods-ZZMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZMediator_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZZMediator_Tests/Pods-ZZMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ZZMediator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZMediator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,14 +43,12 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* ZZMediator_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZMediator_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6B12B376E0703AC87D60240E /* Pods-ZZMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZMediator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZZMediator_Tests/Pods-ZZMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6B447DB7AEF3D50DCFDAB100 /* Pods-ZZMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZMediator_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZZMediator_Example/Pods-ZZMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B787A13F4FB7E5980D35BD11 /* Pods_ZZMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3150929260E689E9BA878A0 /* ZZMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZZMediator.podspec; path = ../ZZMediator.podspec; sourceTree = "<group>"; };
-		E730D7271F1F639859B79F06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F1CA32F83412412B6A494A1B /* Pods-ZZMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZMediator_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZZMediator_Tests/Pods-ZZMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FC1A3307CB40D6B08B245912 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		642D206A046F10FC34FD126E /* Pods-ZZMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZMediator_Example.release.xcconfig"; path = "Target Support Files/Pods-ZZMediator_Example/Pods-ZZMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9FDB90C6D5E25E84520F0479 /* Pods-ZZMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZMediator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZZMediator_Tests/Pods-ZZMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3150929260E689E9BA878A0 /* ZZMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZZMediator.podspec; path = ../ZZMediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E730D7271F1F639859B79F06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E8C0579AF1BF3EAE0F1C2EEB /* libPods-ZZMediator_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZZMediator_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1A3307CB40D6B08B245912 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				312FAB944153C6E1E142296D /* Pods_ZZMediator_Example.framework in Frameworks */,
+				46AEB742859C2E266562CB6C /* libPods-ZZMediator_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,22 +64,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16DA32D962233203AB9ECF99 /* Pods_ZZMediator_Tests.framework in Frameworks */,
+				EAE2AFE2601C11B9EE7AD2AB /* libPods-ZZMediator_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E60B1D59BFCDA7739CFB6BB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4CA5EFD4A764E69EC9C3E4B8 /* Pods_ZZMediator_Example.framework */,
-				B787A13F4FB7E5980D35BD11 /* Pods_ZZMediator_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -86,7 +79,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				E0C09BD056F340E20B94DDFD /* Pods */,
-				4E60B1D59BFCDA7739CFB6BB /* Frameworks */,
+				C3EFAA5B503E5DB758E2492E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,7 +117,8 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				05104433299CABA1004B3117 /* ZZProtocolTests.swift */,
+				0510442629949143004B3117 /* ZZRouterTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -148,15 +142,23 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		C3EFAA5B503E5DB758E2492E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8C0579AF1BF3EAE0F1C2EEB /* libPods-ZZMediator_Example.a */,
+				48CC5243DE62F6161114CD7D /* libPods-ZZMediator_Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E0C09BD056F340E20B94DDFD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6B447DB7AEF3D50DCFDAB100 /* Pods-ZZMediator_Example.debug.xcconfig */,
-				593BA5C7D02E3A272EF6CE42 /* Pods-ZZMediator_Example.release.xcconfig */,
-				6B12B376E0703AC87D60240E /* Pods-ZZMediator_Tests.debug.xcconfig */,
-				F1CA32F83412412B6A494A1B /* Pods-ZZMediator_Tests.release.xcconfig */,
+				48BA8A733DA563965EA2719E /* Pods-ZZMediator_Example.debug.xcconfig */,
+				642D206A046F10FC34FD126E /* Pods-ZZMediator_Example.release.xcconfig */,
+				9FDB90C6D5E25E84520F0479 /* Pods-ZZMediator_Tests.debug.xcconfig */,
+				57DB7ECEF2A4F2A3EC49688A /* Pods-ZZMediator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -167,11 +169,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ZZMediator_Example" */;
 			buildPhases = (
-				8F58639DB3DBE5A1E3D0A68E /* [CP] Check Pods Manifest.lock */,
+				F77F76058A2CC7B4A333CA83 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				68D2A2CC70C5F1E3C347BD29 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,7 +187,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ZZMediator_Tests" */;
 			buildPhases = (
-				41879E869B93B3D80C3DE614 /* [CP] Check Pods Manifest.lock */,
+				5613F842EAD94532FE67B520 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -262,7 +264,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		41879E869B93B3D80C3DE614 /* [CP] Check Pods Manifest.lock */ = {
+		5613F842EAD94532FE67B520 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -284,25 +286,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		68D2A2CC70C5F1E3C347BD29 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZZMediator_Example/Pods-ZZMediator_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ZZMediator/ZZMediator.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZZMediator.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZZMediator_Example/Pods-ZZMediator_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8F58639DB3DBE5A1E3D0A68E /* [CP] Check Pods Manifest.lock */ = {
+		F77F76058A2CC7B4A333CA83 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -340,7 +324,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				0510442729949143004B3117 /* ZZRouterTests.swift in Sources */,
+				05104434299CABA1004B3117 /* ZZProtocolTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,38 +460,51 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B447DB7AEF3D50DCFDAB100 /* Pods-ZZMediator_Example.debug.xcconfig */;
+			baseConfigurationReference = 48BA8A733DA563965EA2719E /* Pods-ZZMediator_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = ZZMediator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 593BA5C7D02E3A272EF6CE42 /* Pods-ZZMediator_Example.release.xcconfig */;
+			baseConfigurationReference = 642D206A046F10FC34FD126E /* Pods-ZZMediator_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = ZZMediator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B12B376E0703AC87D60240E /* Pods-ZZMediator_Tests.debug.xcconfig */;
+			baseConfigurationReference = 9FDB90C6D5E25E84520F0479 /* Pods-ZZMediator_Tests.debug.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZZMediator_Example.app/ZZMediator_Example";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -516,30 +514,35 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZMediator_Example.app/ZZMediator_Example";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1CA32F83412412B6A494A1B /* Pods-ZZMediator_Tests.release.xcconfig */;
+			baseConfigurationReference = 57DB7ECEF2A4F2A3EC49688A /* Pods-ZZMediator_Tests.release.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZZMediator_Example.app/ZZMediator_Example";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZMediator_Example.app/ZZMediator_Example";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
 		};

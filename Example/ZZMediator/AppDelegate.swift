@@ -2,9 +2,7 @@
 //  AppDelegate.swift
 //  ZZMediator
 //
-//  Created by j1zhouzhi@126.com on 01/30/2023.
-//  Copyright (c) 2023 j1zhouzhi@126.com. All rights reserved.
-//
+
 
 import UIKit
 
@@ -14,7 +12,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }

@@ -8,35 +8,16 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZZMediator'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ZZMediator.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '0.1.1'
+  s.summary          = 'ZZMediator Swift Components'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  iOS Swift组件化 ZZMediator Swift Components
                        DESC
-
-  s.homepage         = 'https://github.com/j1zhouzhi@126.com/ZZMediator'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.swift_version = '5.0'
+  s.homepage         = 'https://github.com/ZZAmbition/ZZMediator'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'j1zhouzhi@126.com' => 'j1zhouzhi@126.com' }
-  s.source           = { :git => 'https://github.com/j1zhouzhi@126.com/ZZMediator.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'ZZMediator/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ZZMediator' => ['ZZMediator/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.author           = { 'meta' => 'j1zhouzhi@126.com' }
+  s.source           = { :git => 'https://github.com/ZZAmbition/ZZMediator.git', :tag => s.version.to_s }
+  s.source_files = ['ZZMediator/**/*','ZZMediator/*']
 end

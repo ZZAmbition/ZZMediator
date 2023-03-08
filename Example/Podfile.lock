@@ -1,0 +1,16 @@
+PODS:
+  - ZZMediator (0.1.1)
+
+DEPENDENCIES:
+  - ZZMediator (from `../`)
+
+EXTERNAL SOURCES:
+  ZZMediator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZZMediator: 394a6ee8262298b12916e60d05721f8cb03fcf76
+
+PODFILE CHECKSUM: b83022abc168d88e98faa51d81d2a9daa16a8192
+
+COCOAPODS: 1.11.3
